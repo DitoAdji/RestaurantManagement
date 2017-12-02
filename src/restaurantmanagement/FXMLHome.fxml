@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="648.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurantmanagement.FXMLHomeController">
+   <children>
+      <Label layoutX="83.0" layoutY="48.0" text="Restaurant" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="81.0" text="Ala-Ala" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="order" layoutX="266.0" layoutY="242.0" onAction="#prosesorder" prefHeight="40.0" prefWidth="69.0" style="-fx-background-color: gray;" text="ORDER" />
+      <JFXButton fx:id="admin" layoutX="141.0" layoutY="242.0" onAction="#prosesadmin" prefHeight="40.0" prefWidth="69.0" style="-fx-background-color: gray;" text="ADMIN" />
+      <JFXButton fx:id="exit" layoutX="400.0" layoutY="242.0" onAction="#prosesexit" prefHeight="40.0" prefWidth="69.0" style="-fx-background-color: gray;" text="Exit" />
+      <Separator layoutX="76.0" layoutY="91.0" prefWidth="200.0" style="-fx-background-color: black;" />
+      <AnchorPane layoutX="24.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;">
+         <children>
+            <Label layoutX="83.0" layoutY="48.0" text="Restaurant" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="268.0" layoutY="81.0" text="Ala-Ala" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="order1" layoutX="266.0" layoutY="242.0" onAction="#prosesorder" prefHeight="40.0" prefWidth="69.0" style="-fx-background-color: gray;" text="ORDER" textFill="#37ff00">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="admin1" layoutX="141.0" layoutY="242.0" onAction="#prosesadmin" prefHeight="40.0" prefWidth="69.0" style="-fx-background-color: gray;" text="ADMIN" textFill="#2bff00">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="exit1" layoutX="400.0" layoutY="242.0" onAction="#prosesexit" prefHeight="40.0" prefWidth="69.0" style="-fx-background-color: gray;" text="Exit" textFill="#2fff00">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <Separator layoutX="76.0" layoutY="91.0" prefWidth="200.0" style="-fx-background-color: black;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
